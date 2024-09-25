@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04F0686B2CA4AACF00AB2412 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 04F0686A2CA4AACF00AB2412 /* BottomSheet */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		043E45452CA42ED10060127D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F0686B2CA4AACF00AB2412 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = Weather;
 			packageProductDependencies = (
+				04F0686A2CA4AACF00AB2412 /* BottomSheet */,
 			);
 			productName = Weather;
 			productReference = 043E45342CA42ED00060127D /* Weather.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 043E452B2CA42ED00060127D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				043E45722CA4A3F20060127D /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 043E45352CA42ED00060127D /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		043E45722CA4A3F20060127D /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04F0686A2CA4AACF00AB2412 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043E45722CA4A3F20060127D /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 043E452C2CA42ED00060127D /* Project object */;
 }
